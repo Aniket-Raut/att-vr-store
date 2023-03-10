@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/att-vr-store/static/css/main.073c9b0a.css",
-    "main.js": "/att-vr-store/static/js/main.b43c87a9.js",
+    "main.js": "/att-vr-store/static/js/main.9759c0ae.js",
     "static/js/787.5a063f97.chunk.js": "/att-vr-store/static/js/787.5a063f97.chunk.js",
     "static/media/store_c.glb": "/att-vr-store/static/media/store_c.49474288b18984b47497.glb",
     "static/media/table_group.glb": "/att-vr-store/static/media/table_group.7ae5e5dd50046653c013.glb",
@@ -15,11 +15,11 @@
     "static/media/glass.glb": "/att-vr-store/static/media/glass.9cb619348877b9a7ac82.glb",
     "index.html": "/att-vr-store/index.html",
     "main.073c9b0a.css.map": "/att-vr-store/static/css/main.073c9b0a.css.map",
-    "main.b43c87a9.js.map": "/att-vr-store/static/js/main.b43c87a9.js.map",
+    "main.9759c0ae.js.map": "/att-vr-store/static/js/main.9759c0ae.js.map",
     "787.5a063f97.chunk.js.map": "/att-vr-store/static/js/787.5a063f97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b43c87a9.js"
+    "static/js/main.9759c0ae.js"
   ]
 }

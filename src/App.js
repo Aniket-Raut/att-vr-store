@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import store from './models/store_c.glb'
+import store from './models/store_d2.glb'
 import floor from './models/ground.glb'
 import table from './models/table_group.glb'
 import sky from './models/sky.jpg'
 import glass from './models/glass.glb'
 import lights from './models/lights.glb'
+import s22 from './models/s22.gltf'
+import s23u from './models/s23_ultra.gltf'
+import door from './models/store_door.glb'
 
 function App() {
   return (
@@ -19,6 +22,11 @@ function App() {
         <a-entity gltf-model={table} shadow="receive: false"></a-entity>
         <a-entity gltf-model={glass}></a-entity>
         <a-entity gltf-model={lights}></a-entity>
+        <a-entity gltf-model={s22} position="5.198 1.2 -0.913" rotation="0 -90 0" scale="1.6 1.6 1.6"></a-entity>
+        <a-entity gltf-model={s23u} scale="1.6 1.6 1.6" rotation="-179.9998479605043 360 -179.9998479605043" shadow="receive: false" position="0.85297 1.06 3.963"></a-entity>
+        <a-entity gltf-model={door}></a-entity>
+        {/* <a-entity gltf-model="/att-vr-store/static/media/s23_ultra.5ca8ca09f7291e7752c8.gltf" rotation="0 -90 0" scale="1.6 1.6 1.6" shadow="receive: false"></a-entity> */}
+        {/* <a-entity gltf-model="/att-vr-store/static/media/s22.9ebbd552d1872cbdd794.gltf" scale="1.6 1.6 1.6" rotation="-179.9998479605043 360 -179.9998479605043" shadow="receive: false" position="0.85297 1.18901 3.963"></a-entity> */}
 
         <a-entity light="intensity: 0.6; castShadow: true; penumbra: 0.36; type: spot" position="0.174 2.892 -5.398" data-aframe-default-light="" aframe-injected="" rotation="-90 0 0"></a-entity>
         <a-entity light="intensity: 0.6; castShadow: true; type: spot; penumbra: 0.22" position="1.95731 2.57581 -5.09765" data-aframe-default-light="" aframe-injected="" rotation="-90 0 0"></a-entity>

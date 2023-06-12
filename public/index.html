@@ -6,6 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+    <script>
+      AFRAME.registerComponent('clickhandler', {
+              schema: {
+                txt: {default:'default'}
+              },        
+              init: function () {
+                var data = this.data;
+                var el = this.el;        
+                el.addEventListener('click', function () {            
+                 switch(data.txt){
+                  case "watchmodal":{
+                    const event = new Event("showWatchModal")
+                    window.dispatchEvent(event)
+                    break
+                  }
+                  case "s22modal":{
+                    const event = new Event("showS22Modal")
+                    window.dispatchEvent(event)
+                    break
+                  }
+                  case "floor":{
+                    const event = new Event("openDoor")
+                    window.dispatchEvent(event)
+                    break;
+                  }
+                  case "airpodsmodal":{
+                    const event = new Event("showAirpodsModal")
+                    window.dispatchEvent(event)
+                    break;
+                  }
+                  case "step1":{
+                    const event = new CustomEvent("onStep1",{detail:{position:"-15.201 2.003 -0.590"}})
+                    window.dispatchEvent(event)
+                    break;
+                  }
+                  case "step2":{
+                    const event = new CustomEvent("onStep2",{detail:{position:"-9.999 2.003 -0.590"}})
+                    window.dispatchEvent(event)
+                    break;
+                  }
+                  case "step3":{
+                    const event = new CustomEvent("onStep2",{detail:{position:"0.733 2.003 1.415"}})
+                    window.dispatchEvent(event)
+                    break;
+                  }
+                  case "step4":{
+                    const event = new CustomEvent("onStep2",{detail:{position:"0.733 2.003 -2.921"}})
+                    window.dispatchEvent(event)
+                    break;
+                  }
+                 }
+                });        
+              }
+            });
+      </script>
     <meta
       name="description"
       content="Web site created using create-react-app"

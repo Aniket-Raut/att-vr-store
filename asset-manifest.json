@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/att-vr-store/static/css/main.9890f633.css",
-    "main.js": "/att-vr-store/static/js/main.2604e571.js",
+    "main.js": "/att-vr-store/static/js/main.e848054c.js",
     "static/js/787.5a063f97.chunk.js": "/att-vr-store/static/js/787.5a063f97.chunk.js",
     "static/media/Store_with_frame3.glb": "/att-vr-store/static/media/Store_with_frame3.843839d2ae00cd754c37.glb",
     "static/media/receptionCounter-3.glb": "/att-vr-store/static/media/receptionCounter-3.45338111482c32b48989.glb",
@@ -18,16 +18,16 @@
     "static/media/ComparisonModal2.png": "/att-vr-store/static/media/ComparisonModal2.3c8dc388c9e1113d5948.png",
     "static/media/airpodsMax_overlay_desc.png": "/att-vr-store/static/media/airpodsMax_overlay_desc.4825449a7b06e6ebecda.png",
     "static/media/modal.png": "/att-vr-store/static/media/modal.37f4a030760fbeb9fbdc.png",
-    "static/media/circle.glb": "/att-vr-store/static/media/circle.6f6d2b533574ef296734.glb",
+    "static/media/crcle.glb": "/att-vr-store/static/media/crcle.380c54baf132e0813d95.glb",
     "static/media/logo.svg": "/att-vr-store/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/glass-wall.glb": "/att-vr-store/static/media/glass-wall.50298a15173f784a8d14.glb",
     "index.html": "/att-vr-store/index.html",
     "main.9890f633.css.map": "/att-vr-store/static/css/main.9890f633.css.map",
-    "main.2604e571.js.map": "/att-vr-store/static/js/main.2604e571.js.map",
+    "main.e848054c.js.map": "/att-vr-store/static/js/main.e848054c.js.map",
     "787.5a063f97.chunk.js.map": "/att-vr-store/static/js/787.5a063f97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9890f633.css",
-    "static/js/main.2604e571.js"
+    "static/js/main.e848054c.js"
   ]
 }
